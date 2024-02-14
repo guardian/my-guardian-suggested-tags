@@ -18,9 +18,8 @@ jobs:
     - name: Validate JSON files
       run: |
         cd tags
-        for file in *.json; do
-          if ! jsonlint -q "$file"; then
-            echo "Error: $file is not a valid JSON file."
-            exit 1
-          fi
+        json_files=$(ls *.json)
+        for file in $json_files; do
+          echo "Validating $file"
+          jq . "$file"
         done
