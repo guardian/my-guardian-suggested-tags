@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'tags/*.json'  # Trigger only when JSON files are added/modified in the "tags" directory
+  workflow_dispatch:  
 
 jobs:
   validate_json:
