@@ -1,0 +1,26 @@
+
+name: JSON Validation
+
+on:
+  push:
+    paths:
+      - 'tags/*.json'  # Trigger only when JSON files are added/modified in the "tags" directory
+
+jobs:
+  validate_json:
+    name: Validate JSON files in tags directory
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Validate JSON files
+      run: |
+        cd tags
+        for file in *.json; do
+          if ! jsonlint -q "$file"; then
+            echo "Error: $file is not a valid JSON file."
+            exit 1
+          fi
+        done
