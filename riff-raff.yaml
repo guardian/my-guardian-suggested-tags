@@ -21,5 +21,7 @@ deployments:
         PROD: /PROD/mobile/my-guardian-suggested-tags-static/bucket-name
       cacheControl: private
       publicReadAcl: false
+      prefixStack: false
+      prefixStage: false
     dependencies:
       - my-guardian-suggested-tags-cfn
