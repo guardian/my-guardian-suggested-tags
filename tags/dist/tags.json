@@ -1,0 +1,2577 @@
+
+[
+    {
+      "displayTitle": "News",
+      "tags": [
+        {
+          "displayName": "US news",
+          "id": "us-news",
+          "type": "section"
+        },
+        {
+          "displayName": "UK news",
+          "id": "uk/uk",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia news",
+          "id": "australia-news",
+          "type": "section"
+        },
+        {
+          "displayName": "US politics",
+          "id": "us-news/us-politics",
+          "type": "topic"
+        },
+        {
+          "displayName": "UK politics",
+          "id": "politics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia politics",
+          "id": "australia-news/australian-politics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Conservatives",
+          "id": "politics/conservatives",
+          "type": "topic"
+        },
+        {
+          "displayName": "Labour",
+          "id": "politics/labour",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rishi Sunak",
+          "id": "politics/rishi-sunak",
+          "type": "topic"
+        },
+        {
+          "displayName": "Donald Trump",
+          "id": "us-news/donaldtrump",
+          "type": "topic"
+        },
+        {
+          "displayName": "Joe Biden",
+          "id": "us-news/joebiden",
+          "type": "topic"
+        },
+        {
+          "displayName": "Foreign policy",
+          "id": "politics/foreignpolicy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Trade unions",
+          "id": "politics/tradeunions",
+          "type": "topic"
+        },
+        {
+          "displayName": "Education",
+          "id": "education",
+          "type": "topic"
+        },
+        {
+          "displayName": "Society",
+          "id": "society",
+          "type": "topic"
+        },
+        {
+          "displayName": "Global development",
+          "id": "global-development",
+          "type": "topic"
+        },
+        {
+          "displayName": "Human rights",
+          "id": "law/human-rights",
+          "type": "topic"
+        },
+        {
+          "displayName": "Law",
+          "id": "law",
+          "type": "topic"
+        },
+        {
+          "displayName": "Ukraine",
+          "id": "world/ukraine",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Opinion",
+      "tags": [
+        {
+          "displayName": "The heat or eat diaries",
+          "id": "commentisfree/series/the-heat-or-eat-diaries",
+          "type": "series"
+        },
+        {
+          "displayName": "Why I quit ",
+          "id": "commentisfree/series/why-i-quit",
+          "type": "series"
+        },
+        {
+          "displayName": "The Guardian view",
+          "id": "profile/editorial",
+          "type": "series"
+        },
+        {
+          "displayName": "Living with AI",
+          "id": "commentisfree/series/living-with-ai",
+          "type": "series"
+        },
+        {
+          "displayName": "First Dog on the Moon",
+          "id": "commentisfree/series/first-dog-on-the-moon",
+          "type": "series"
+        },
+        {
+          "displayName": "George Monbiot",
+          "id": "profile/georgemonbiot",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Aditya Chakrabortty",
+          "id": "profile/adityachakrabortty",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Marina Hyde",
+          "id": "profile/marinahyde",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Zoe Williams",
+          "id": "profile/zoewilliams",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Polly Toynbee",
+          "id": "profile/pollytoynbee",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Frances Ryan",
+          "id": "profile/frances-ryan",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Owen Jones",
+          "id": "profile/owen-jones",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Jonathan Freedland",
+          "id": "profile/jonathanfreedland",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Simon Jenkins",
+          "id": "profile/simonjenkins",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Martin Kettle",
+          "id": "profile/martinkettle",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Afua Hirsch ",
+          "id": "profile/afuahirsch",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Timothy Garton Ash",
+          "id": "profile/timothygartonash",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Gaby Hinsliff",
+          "id": "profile/gabyhinsliff",
+          "type": "contributor"
+        },
+        {
+          "displayName": "John Harris",
+          "id": "profile/johnharris",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Charlotte Higgins",
+          "id": "profile/charlottehiggins",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Rafael Behr ",
+          "id": "profile/rafaelbehr",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Nesrine Malik",
+          "id": "profile/nesrinemalik",
+          "type": "contributor"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Football",
+      "tags": [
+        {
+          "displayName": "Football",
+          "id": "football",
+          "type": "section"
+        },
+        {
+          "displayName": "Premier League",
+          "id": "football/premierleague",
+          "type": "topic"
+        },
+        {
+          "displayName": "Champions League",
+          "id": "football/championsleague",
+          "type": "topic"
+        },
+        {
+          "displayName": "Serie A",
+          "id": "football/serieafootball",
+          "type": "topic"
+        },
+        {
+          "displayName": "Bundesliga",
+          "id": "football/bundesligafootball",
+          "type": "topic"
+        },
+        {
+          "displayName": "WSL",
+          "id": "football/womens-super-league",
+          "type": "topic"
+        },
+        {
+          "displayName": "Womens football",
+          "id": "football/womensfootball",
+          "type": "topic"
+        },
+        {
+          "displayName": "World cup",
+          "id": "football/world-cup-football",
+          "type": "topic"
+        },
+        {
+          "displayName": "Manchester United ",
+          "id": "football/manchester-united",
+          "type": "topic"
+        },
+        {
+          "displayName": "Manchester City",
+          "id": "football/manchestercity",
+          "type": "topic"
+        },
+        {
+          "displayName": "Chelsea",
+          "id": "football/chelsea",
+          "type": "topic"
+        },
+        {
+          "displayName": "Liverpool",
+          "id": "football/liverpool",
+          "type": "topic"
+        },
+        {
+          "displayName": "European football",
+          "id": "football/europeanfootball",
+          "type": "topic"
+        },
+        {
+          "displayName": "Tottenham Hotspur",
+          "id": "football/tottenham-hotspur",
+          "type": "topic"
+        },
+        {
+          "displayName": "Arsenal",
+          "id": "football/arsenal",
+          "type": "topic"
+        },
+        {
+          "displayName": "Newcastle United",
+          "id": "football/newcastleunited",
+          "type": "topic"
+        },
+        {
+          "displayName": "England",
+          "id": "football/england",
+          "type": "topic"
+        },
+        {
+          "displayName": "Women's world cup",
+          "id": "football/womens-world-cup",
+          "type": "topic"
+        },
+        {
+          "displayName": "England women's football team",
+          "id": "football/england-womens-football-team",
+          "type": "topic"
+        },
+        {
+          "displayName": "FA cup",
+          "id": "football/fa-cup",
+          "type": "topic"
+        },
+        {
+          "displayName": "Football weekly",
+          "id": "football/series/footballweekly",
+          "type": "series"
+        },
+        {
+          "displayName": "Transfer window",
+          "id": "football/transfer-window",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Sport",
+      "tags": [
+        {
+          "displayName": "Australia sport",
+          "id": "sport/australia-sport",
+          "type": "topic"
+        },
+        {
+          "displayName": "US sport",
+          "id": "sport/us-sport",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cricket",
+          "id": "sport/cricket",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rugby union",
+          "id": "sport/rugby-union",
+          "type": "topic"
+        },
+        {
+          "displayName": "Tennis",
+          "id": "sport/tennis",
+          "type": "topic"
+        },
+        {
+          "displayName": "England cricket team",
+          "id": "sport/england-cricket-team",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia cricket team",
+          "id": "sport/australia-cricket-team",
+          "type": "topic"
+        },
+        {
+          "displayName": "NFL",
+          "id": "sport/nfl",
+          "type": "topic"
+        },
+        {
+          "displayName": "Golf",
+          "id": "sport/golf",
+          "type": "topic"
+        },
+        {
+          "displayName": "Basketball",
+          "id": "sport/basketball",
+          "type": "topic"
+        },
+        {
+          "displayName": "Motor sports",
+          "id": "sport/motorsports",
+          "type": "topic"
+        },
+        {
+          "displayName": "England rugby union team",
+          "id": "sport/england-rugby-union-team",
+          "type": "topic"
+        },
+        {
+          "displayName": "Horse racing",
+          "id": "sport/horse-racing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rugby league",
+          "id": "sport/rugbyleague",
+          "type": "topic"
+        },
+        {
+          "displayName": "Ashes",
+          "id": "sport/ashes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Formula One",
+          "id": "sport/formulaone",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cycling",
+          "id": "sport/cycling",
+          "type": "topic"
+        },
+        {
+          "displayName": "Olympic Games",
+          "id": "sport/olympic-games",
+          "type": "topic"
+        },
+        {
+          "displayName": "NBA",
+          "id": "sport/nba",
+          "type": "topic"
+        },
+        {
+          "displayName": "Athletics",
+          "id": "sport/athletics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Boxing",
+          "id": "sport/boxing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Wimbledon",
+          "id": "sport/wimbledon",
+          "type": "topic"
+        },
+        {
+          "displayName": "AFL",
+          "id": "sport/afl",
+          "type": "topic"
+        },
+        {
+          "displayName": "Six Nations",
+          "id": "sport/sixnations",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australian Open",
+          "id": "sport/australian-open",
+          "type": "topic"
+        },
+        {
+          "displayName": "Novak Djokovic",
+          "id": "sport/novak-djokovic",
+          "type": "topic"
+        },
+        {
+          "displayName": "Women's cricket",
+          "id": "sport/womenscricket",
+          "type": "topic"
+        },
+        {
+          "displayName": "PGA Tour",
+          "id": "sport/pga-tour",
+          "type": "topic"
+        },
+        {
+          "displayName": "Horse racing tips",
+          "id": "sport/horse-racing-tips",
+          "type": "topic"
+        },
+        {
+          "displayName": "India cricket team",
+          "id": "sport/indiacricketteam",
+          "type": "topic"
+        },
+        {
+          "displayName": "Twenty20",
+          "id": "sport/twenty20",
+          "type": "topic"
+        },
+        {
+          "displayName": "Winter Olympics",
+          "id": "sport/winter-olympics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia rugby union team",
+          "id": "sport/australia-rugby-union-team",
+          "type": "topic"
+        },
+        {
+          "displayName": "Baseball",
+          "id": "sport/baseball",
+          "type": "topic"
+        },
+        {
+          "displayName": "Over By over reports",
+          "id": "sport/over-by-over-reports",
+          "type": "topic"
+        },
+        {
+          "displayName": "NRL",
+          "id": "sport/nrl",
+          "type": "topic"
+        },
+        {
+          "displayName": "Lewis Hamilton",
+          "id": "sport/lewis-hamilton",
+          "type": "topic"
+        },
+        {
+          "displayName": "Premier League",
+          "id": "football/premierleague",
+          "type": "topic"
+        },
+        {
+          "displayName": "US Open Tennis",
+          "id": "sport/usopentennis",
+          "type": "topic"
+        },
+        {
+          "displayName": "MLB",
+          "id": "sport/mlb",
+          "type": "topic"
+        },
+        {
+          "displayName": "European Tour",
+          "id": "sport/european-tour",
+          "type": "topic"
+        },
+        {
+          "displayName": "Yorkshire",
+          "id": "sport/yorkshire",
+          "type": "topic"
+        },
+        {
+          "displayName": "T20 World Cup",
+          "id": "sport/worldtwenty20",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sport politics",
+          "id": "sport/sport-politics",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Business",
+      "tags": [
+        {
+          "displayName": "Business",
+          "id": "business",
+          "type": "section"
+        },
+        {
+          "displayName": "Economics",
+          "id": "business/economics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cost of living crisis",
+          "id": "business/cost-of-living-crisis",
+          "type": "topic"
+        },
+        {
+          "displayName": "Retail",
+          "id": "business/retail",
+          "type": "topic"
+        },
+        {
+          "displayName": "Energy industry",
+          "id": "business/energy-industry",
+          "type": "topic"
+        },
+        {
+          "displayName": "Inflation",
+          "id": "business/inflation",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia economy",
+          "id": "business/australia-economy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Food & drink industry",
+          "id": "business/fooddrinks",
+          "type": "topic"
+        },
+        {
+          "displayName": "Banking",
+          "id": "business/banking",
+          "type": "topic"
+        },
+        {
+          "displayName": "Stock markets",
+          "id": "business/stock-markets",
+          "type": "topic"
+        },
+        {
+          "displayName": "Oil",
+          "id": "business/oil",
+          "type": "topic"
+        },
+        {
+          "displayName": "Commodities",
+          "id": "business/commodities",
+          "type": "topic"
+        },
+        {
+          "displayName": "Gas",
+          "id": "business/gas",
+          "type": "topic"
+        },
+        {
+          "displayName": "Airline industry",
+          "id": "business/theairlineindustry",
+          "type": "topic"
+        },
+        {
+          "displayName": "Supermarkets",
+          "id": "business/supermarkets",
+          "type": "topic"
+        },
+        {
+          "displayName": "Bank of England",
+          "id": "business/bankofenglandgovernor",
+          "type": "topic"
+        },
+        {
+          "displayName": "Oil and gas companies",
+          "id": "business/oilandgascompanies",
+          "type": "topic"
+        },
+        {
+          "displayName": "Interest rates",
+          "id": "business/interest-rates",
+          "type": "topic"
+        },
+        {
+          "displayName": "Regulators",
+          "id": "business/regulators",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Lifestyle",
+      "tags": [
+        {
+          "displayName": "Lifestyle",
+          "id": "lifeandstyle",
+          "type": "section"
+        },
+        {
+          "displayName": "Family",
+          "id": "lifeandstyle/family",
+          "type": "topic"
+        },
+        {
+          "displayName": "Health and wellbeing",
+          "id": "lifeandstyle/health-and-wellbeing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Women",
+          "id": "lifeandstyle/women",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fashion",
+          "id": "fashion/fashion",
+          "type": "topic"
+        },
+        {
+          "displayName": "Beauty",
+          "id": "fashion/beauty",
+          "type": "topic"
+        },
+        {
+          "displayName": "Men's fashion",
+          "id": "fashion/mens-fashion",
+          "type": "topic"
+        },
+        {
+          "displayName": "Relationships",
+          "id": "lifeandstyle/relationships",
+          "type": "topic"
+        },
+        {
+          "displayName": "Gardens",
+          "id": "lifeandstyle/gardens",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pets",
+          "id": "lifeandstyle/pets",
+          "type": "topic"
+        },
+        {
+          "displayName": "Homes",
+          "id": "lifeandstyle/homes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sex",
+          "id": "lifeandstyle/sex",
+          "type": "topic"
+        },
+        {
+          "displayName": "Gardening advice",
+          "id": "lifeandstyle/gardens",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fitness",
+          "id": "lifeandstyle/fitness",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sudoku",
+          "id": "lifeandstyle/series/sudoku",
+          "type": "series"
+        },
+        {
+          "displayName": "Why am I like this",
+          "id": "wellness/series/why-am-i-like-this-",
+          "type": "series"
+        },
+        {
+          "displayName": "A moment that changed me",
+          "id": "lifeandstyle/series/a-moment-that-changed-me",
+          "type": "series"
+        },
+        {
+          "displayName": "Pass notes",
+          "id": "news/series/pass-notes",
+          "type": "series"
+        },
+        {
+          "displayName": "How we met",
+          "id": "lifeandstyle/series/how-we-met",
+          "type": "series"
+        },
+        {
+          "displayName": "Ask Phillipa",
+          "id": "lifeandstyle/series/ask-philippa",
+          "type": "series"
+        },
+        {
+          "displayName": "Sexual Healing",
+          "id": "lifeandstyle/series/sexualhealing",
+          "type": "series"
+        },
+        {
+          "displayName": "The experts",
+          "id": "lifeandstyle/series/the-experts",
+          "type": "series"
+        },
+        {
+          "displayName": "Notes and queries",
+          "id": "lifeandstyle/series/notes-and-queries",
+          "type": "series"
+        },
+        {
+          "displayName": "Walking",
+          "id": "lifeandstyle/walking",
+          "type": "topic"
+        },
+        {
+          "displayName": "Dogs",
+          "id": "lifeandstyle/dogs",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pregnancy",
+          "id": "lifeandstyle/pregnancy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Dating",
+          "id": "lifeandstyle/dating",
+          "type": "topic"
+        },
+        {
+          "displayName": "Hobbies",
+          "id": "lifeandstyle/hobbies",
+          "type": "topic"
+        },
+        {
+          "displayName": "Interiors",
+          "id": "lifeandstyle/interiors",
+          "type": "topic"
+        },
+        {
+          "displayName": "Celebrity",
+          "id": "lifeandstyle/celebrity",
+          "type": "topic"
+        },
+        {
+          "displayName": "Marriage",
+          "id": "lifeandstyle/marriage",
+          "type": "topic"
+        },
+        {
+          "displayName": "Friendship",
+          "id": "lifeandstyle/friendship",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cycling",
+          "id": "lifeandstyle/cycling",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sleep",
+          "id": "lifeandstyle/sleep",
+          "type": "topic"
+        },
+        {
+          "displayName": "Swimming",
+          "id": "lifeandstyle/swimming",
+          "type": "topic"
+        },
+        {
+          "displayName": "Men",
+          "id": "lifeandstyle/men",
+          "type": "topic"
+        },
+        {
+          "displayName": "Veganism",
+          "id": "lifeandstyle/veganism",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cats",
+          "id": "lifeandstyle/cats",
+          "type": "topic"
+        },
+        {
+          "displayName": "Vegetarianism",
+          "id": "lifeandstyle/vegetarianism",
+          "type": "topic"
+        },
+        {
+          "displayName": "Toys",
+          "id": "lifeandstyle/toys",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sunday with...",
+          "id": "lifeandstyle/sunday-with-",
+          "type": "topic"
+        },
+        {
+          "displayName": "Running",
+          "id": "lifeandstyle/running",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mindfulness",
+          "id": "lifeandstyle/mindfulness",
+          "type": "topic"
+        },
+        {
+          "displayName": "DIY",
+          "id": "lifeandstyle/diy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Parents and parenting",
+          "id": "lifeandstyle/parents-and-parenting",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Food",
+      "tags": [
+        {
+          "displayName": "Recipes",
+          "id": "tone/recipes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Felicity Cloake",
+          "id": "profile/felicity-cloake",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Jay Rayner ",
+          "id": "profile/jayrayner",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Grace Dent",
+          "id": "profile/gracedent",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Yottam Ottolenghi",
+          "id": "profile/yotamottolenghi",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Nigel Slater",
+          "id": "profile/nigelslater",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Felicity Cloake's masterclass",
+          "id": "food/series/felicity-cloake-s-masterclass",
+          "type": "series"
+        },
+        {
+          "displayName": "Nigel Slater's midweek dinner",
+          "id": "food/series/nigel-slaters-midweek-dinner",
+          "type": "series"
+        },
+        {
+          "displayName": "Jay Rayner on restaurants",
+          "id": "food/series/jay-rayner-on-restaurants",
+          "type": "series"
+        },
+        {
+          "displayName": "The new vegan",
+          "id": "food/series/the-new-vegan",
+          "type": "series"
+        },
+        {
+          "displayName": "The sweet spot",
+          "id": "food/series/the-sweet-spot",
+          "type": "series"
+        },
+        {
+          "displayName": "A kitchen in Rome",
+          "id": "food/series/a-kitchen-in-rome",
+          "type": "series"
+        },
+        {
+          "displayName": "Rachel Roddy",
+          "id": "profile/rachel-roddy",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Meera Sodha",
+          "id": "profile/meera-sodha",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Alice Zavlasky",
+          "id": "profile/alice-zaslavsky",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Ravneet Gill",
+          "id": "profile/ravneet-gill",
+          "type": "contributor"
+        },
+        {
+          "displayName": "Main Course",
+          "id": "food/main-course",
+          "type": "topic"
+        },
+        {
+          "displayName": "Breakfast",
+          "id": "food/breakfast",
+          "type": "topic"
+        },
+        {
+          "displayName": "Soup",
+          "id": "food/soup",
+          "type": "topic"
+        },
+        {
+          "displayName": "Restaurants",
+          "id": "food/restaurants",
+          "type": "topic"
+        },
+        {
+          "displayName": "Baking",
+          "id": "food/baking",
+          "type": "topic"
+        },
+        {
+          "displayName": "Dessert",
+          "id": "food/dessert",
+          "type": "topic"
+        },
+        {
+          "displayName": "Wine",
+          "id": "food/wine",
+          "type": "topic"
+        },
+        {
+          "displayName": "Meat",
+          "id": "food/meat",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cheese",
+          "id": "food/cheese",
+          "type": "topic"
+        },
+        {
+          "displayName": "Vegetarian",
+          "id": "food/vegetarian",
+          "type": "topic"
+        },
+        {
+          "displayName": "Vegan",
+          "id": "food/vegan",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fish",
+          "id": "food/fish",
+          "type": "topic"
+        },
+        {
+          "displayName": "Side Dishes",
+          "id": "food/side-dishes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Snacks",
+          "id": "food/snacks",
+          "type": "topic"
+        },
+        {
+          "displayName": "Seafood",
+          "id": "food/seafood",
+          "type": "topic"
+        },
+        {
+          "displayName": "Bread",
+          "id": "food/bread",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cake",
+          "id": "food/cake",
+          "type": "topic"
+        },
+        {
+          "displayName": "Salad",
+          "id": "food/salad",
+          "type": "topic"
+        },
+        {
+          "displayName": "Chicken",
+          "id": "food/chicken",
+          "type": "topic"
+        },
+        {
+          "displayName": "Spirits",
+          "id": "food/spirits",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pasta",
+          "id": "food/pasta",
+          "type": "topic"
+        },
+        {
+          "displayName": "Potatoes",
+          "id": "food/potatoes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cocktails",
+          "id": "food/cocktails",
+          "type": "topic"
+        },
+        {
+          "displayName": "French",
+          "id": "food/french",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pork",
+          "id": "food/pork",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rice",
+          "id": "food/rice",
+          "type": "topic"
+        },
+        {
+          "displayName": "Spanish",
+          "id": "food/spanish",
+          "type": "topic"
+        },
+        {
+          "displayName": "British food and drink",
+          "id": "food/british-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australian food and drink",
+          "id": "food/australian-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Italian food and drink",
+          "id": "food/italian-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Middle Eastern food and drink",
+          "id": "food/middleeastern",
+          "type": "topic"
+        },
+        {
+          "displayName": "Chinese",
+          "id": "food/chinese",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mexican",
+          "id": "food/mexican",
+          "type": "topic"
+        },
+        {
+          "displayName": "Japanese",
+          "id": "food/japanese",
+          "type": "topic"
+        },
+        {
+          "displayName": "American food and drink",
+          "id": "food/american-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Greek food and drink",
+          "id": "food/greek-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Indian",
+          "id": "food/indian",
+          "type": "topic"
+        },
+        {
+          "displayName": "Christmas food and drink",
+          "id": "food/christmas-food-and-drink",
+          "type": "topic"
+        },
+        {
+          "displayName": "Summer food and drink",
+          "id": "food/summer-food-and-drink",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Environment",
+      "tags": [
+        {
+          "displayName": "Environment",
+          "id": "environment/environment",
+          "type": "topic"
+        },
+        {
+          "displayName": "Climate crisis",
+          "id": "environment/climate-crisis",
+          "type": "topic"
+        },
+        {
+          "displayName": "Wildlife",
+          "id": "environment/wildlife",
+          "type": "topic"
+        },
+        {
+          "displayName": "Energy",
+          "id": "environment/energy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Conservation",
+          "id": "environment/conservation",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fossil fuels",
+          "id": "environment/fossil-fuels",
+          "type": "topic"
+        },
+        {
+          "displayName": "Carbon emissions",
+          "id": "environment/carbon-emissions",
+          "type": "topic"
+        },
+        {
+          "displayName": "Farming",
+          "id": "environment/farming",
+          "type": "topic"
+        },
+        {
+          "displayName": "Flooding",
+          "id": "environment/flooding",
+          "type": "topic"
+        },
+        {
+          "displayName": "Birds",
+          "id": "environment/birds",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cop 29",
+          "id": "environment/cop29",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pollution",
+          "id": "environment/pollution",
+          "type": "topic"
+        },
+        {
+          "displayName": "Water",
+          "id": "environment/water",
+          "type": "topic"
+        },
+        {
+          "displayName": "Marine life",
+          "id": "environment/marine-life",
+          "type": "topic"
+        },
+        {
+          "displayName": "Renewable energy",
+          "id": "environment/renewableenergy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Forests",
+          "id": "environment/forests",
+          "type": "topic"
+        },
+        {
+          "displayName": "Oceans",
+          "id": "environment/oceans",
+          "type": "topic"
+        },
+        {
+          "displayName": "Biodiversity",
+          "id": "environment/biodiversity",
+          "type": "topic"
+        },
+        {
+          "displayName": "Activism",
+          "id": "environment/activism",
+          "type": "topic"
+        },
+        {
+          "displayName": "Gas",
+          "id": "environment/gas",
+          "type": "topic"
+        },
+        {
+          "displayName": "Endangered species",
+          "id": "environment/endangeredspecies",
+          "type": "topic"
+        },
+        {
+          "displayName": "Coal",
+          "id": "environment/coal",
+          "type": "topic"
+        },
+        {
+          "displayName": "Insects",
+          "id": "environment/insects",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rivers",
+          "id": "environment/rivers",
+          "type": "topic"
+        },
+        {
+          "displayName": "Ethical and green living",
+          "id": "environment/ethical-living",
+          "type": "topic"
+        },
+        {
+          "displayName": "Food",
+          "id": "environment/food",
+          "type": "topic"
+        },
+        {
+          "displayName": "Plants",
+          "id": "environment/plants",
+          "type": "topic"
+        },
+        {
+          "displayName": "Electric cars",
+          "id": "environment/electric-cars+environment",
+          "type": "topic"
+        },
+        {
+          "displayName": "Drought",
+          "id": "environment/drought",
+          "type": "topic"
+        },
+        {
+          "displayName": "Air pollution",
+          "id": "environment/air-pollution",
+          "type": "topic"
+        },
+        {
+          "displayName": "Oil",
+          "id": "business/oilandgascompanies",
+          "type": "topic"
+        },
+        {
+          "displayName": "Waste",
+          "id": "environment/waste",
+          "type": "topic"
+        },
+        {
+          "displayName": "Green politics",
+          "id": "environment/green-politics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Country diaries",
+          "id": "environment/series/country-diary",
+          "type": "series"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Culture",
+      "tags": [
+        {
+          "displayName": "Television",
+          "id": "culture/television",
+          "type": "topic"
+        },
+        {
+          "displayName": "Comedy",
+          "id": "culture/comedy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Festivals",
+          "id": "culture/festivals",
+          "type": "topic"
+        },
+        {
+          "displayName": "Heritage",
+          "id": "culture/heritage",
+          "type": "topic"
+        },
+        {
+          "displayName": "Museums",
+          "id": "culture/museums",
+          "type": "topic"
+        },
+        {
+          "displayName": "Stage ",
+          "id": "stage/stage",
+          "type": "topic"
+        },
+        {
+          "displayName": "Theatre",
+          "id": "stage/theatre",
+          "type": "topic"
+        },
+        {
+          "displayName": "Radio",
+          "id": "culture/radio",
+          "type": "topic"
+        },
+        {
+          "displayName": "Marvel",
+          "id": "culture/marvel",
+          "type": "topic"
+        },
+        {
+          "displayName": "Shakespeare",
+          "id": "culture/shakespeare",
+          "type": "topic"
+        },
+        {
+          "displayName": "Arts Funding",
+          "id": "culture/arts-funding",
+          "type": "topic"
+        },
+        {
+          "displayName": "Royal Opera House",
+          "id": "culture/royal-opera-house",
+          "type": "topic"
+        },
+        {
+          "displayName": "British Museum",
+          "id": "culture/british-museum",
+          "type": "topic"
+        },
+        {
+          "displayName": "Drag",
+          "id": "culture/drag",
+          "type": "topic"
+        },
+        {
+          "displayName": "Barbican",
+          "id": "culture/barbican",
+          "type": "topic"
+        },
+        {
+          "displayName": "Black British culture",
+          "id": "culture/black-british-culture",
+          "type": "topic"
+        },
+        {
+          "displayName": "Anime",
+          "id": "culture/anime",
+          "type": "topic"
+        },
+        {
+          "displayName": "Awards and prizes",
+          "id": "culture/awards-and-prizes",
+          "type": "topic"
+        },
+        {
+          "displayName": "Media",
+          "id": "media/media",
+          "type": "topic"
+        },
+        {
+          "displayName": "Games",
+          "id": "games/games",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Film",
+      "tags": [
+        {
+          "displayName": "Film",
+          "id": "film",
+          "type": "section"
+        },
+        {
+          "displayName": "Drama",
+          "id": "film/drama",
+          "type": "topic"
+        },
+        {
+          "displayName": "Documentary",
+          "id": "film/documentary",
+          "type": "topic"
+        },
+        {
+          "displayName": "Comedy",
+          "id": "film/comedy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Thriller",
+          "id": "film/thriller",
+          "type": "topic"
+        },
+        {
+          "displayName": "Horror",
+          "id": "film/horror",
+          "type": "topic"
+        },
+        {
+          "displayName": "Science fiction and fantasy",
+          "id": "film/sciencefictionandfantasy",
+          "type": "topic"
+        },
+        {
+          "displayName": "World cinema",
+          "id": "film/world-cinema",
+          "type": "topic"
+        },
+        {
+          "displayName": "Film industry",
+          "id": "film/film-industry",
+          "type": "topic"
+        },
+        {
+          "displayName": "Oscars",
+          "id": "film/oscars",
+          "type": "topic"
+        },
+        {
+          "displayName": "Action and adventure",
+          "id": "film/actionandadventure",
+          "type": "topic"
+        },
+        {
+          "displayName": "Romance",
+          "id": "film/romance",
+          "type": "topic"
+        },
+        {
+          "displayName": "Animation",
+          "id": "film/animation",
+          "type": "topic"
+        },
+        {
+          "displayName": "Crime",
+          "id": "film/crime",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australia",
+          "id": "film/australia",
+          "type": "topic"
+        },
+        {
+          "displayName": "Period and historical",
+          "id": "film/periodandhistorical",
+          "type": "topic"
+        },
+        {
+          "displayName": "Superhero movies",
+          "id": "film/superhero-movies",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cannes film festival",
+          "id": "film/cannesfilmfestival",
+          "type": "topic"
+        },
+        {
+          "displayName": "Musical",
+          "id": "film/musical",
+          "type": "topic"
+        },
+        {
+          "displayName": "Biopics",
+          "id": "film/biopics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Family",
+          "id": "film/family",
+          "type": "topic"
+        },
+        {
+          "displayName": "Venice film festival",
+          "id": "film/venicefilmfestival",
+          "type": "topic"
+        },
+        {
+          "displayName": "War films",
+          "id": "film/war-films",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Music",
+      "tags": [
+        {
+          "displayName": "Music",
+          "id": "music",
+          "type": "section"
+        },
+        {
+          "displayName": "Pop and rock",
+          "id": "music/popandrock",
+          "type": "topic"
+        },
+        {
+          "displayName": "Classical music & opera",
+          "id": "music/classical-music-and-opera",
+          "type": "topic"
+        },
+        {
+          "displayName": "Opera",
+          "id": "music/opera",
+          "type": "topic"
+        },
+        {
+          "displayName": "Rap",
+          "id": "music/rap",
+          "type": "topic"
+        },
+        {
+          "displayName": "Hip Hop",
+          "id": "music/hip-hop",
+          "type": "topic"
+        },
+        {
+          "displayName": "Jazz",
+          "id": "music/jazz",
+          "type": "topic"
+        },
+        {
+          "displayName": "Indie",
+          "id": "music/indie",
+          "type": "topic"
+        },
+        {
+          "displayName": "Electronic music",
+          "id": "music/electronicmusic",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australian music",
+          "id": "music/australian-music",
+          "type": "topic"
+        },
+        {
+          "displayName": "Dance music",
+          "id": "music/dance-music",
+          "type": "topic"
+        },
+        {
+          "displayName": "Folk",
+          "id": "music/folk",
+          "type": "topic"
+        },
+        {
+          "displayName": "Music festivals",
+          "id": "music/music-festivals",
+          "type": "topic"
+        },
+        {
+          "displayName": "Punk",
+          "id": "music/punk",
+          "type": "topic"
+        },
+        {
+          "displayName": "Experimental music",
+          "id": "music/experimental-music",
+          "type": "topic"
+        },
+        {
+          "displayName": "R&B",
+          "id": "music/r-and-b",
+          "type": "topic"
+        },
+        {
+          "displayName": "Soul",
+          "id": "music/soul",
+          "type": "topic"
+        },
+        {
+          "displayName": "Glastonbury",
+          "id": "music/glastonbury",
+          "type": "topic"
+        },
+        {
+          "displayName": "Taylor Swift",
+          "id": "music/taylor-swift",
+          "type": "topic"
+        },
+        {
+          "displayName": "Country",
+          "id": "music/country",
+          "type": "topic"
+        },
+        {
+          "displayName": "Kanye West",
+          "id": "music/kanyewest",
+          "type": "topic"
+        },
+        {
+          "displayName": "The Beatles",
+          "id": "music/thebeatles",
+          "type": "topic"
+        },
+        {
+          "displayName": "Metal",
+          "id": "music/metal",
+          "type": "topic"
+        },
+        {
+          "displayName": "Beyonce",
+          "id": "music/beyonce",
+          "type": "topic"
+        },
+        {
+          "displayName": "Clubs",
+          "id": "music/clubs",
+          "type": "topic"
+        },
+        {
+          "displayName": "Proms",
+          "id": "music/proms",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Books",
+      "tags": [
+        {
+          "displayName": "Books",
+          "id": "books",
+          "type": "section"
+        },
+        {
+          "displayName": "Fiction",
+          "id": "books/fiction",
+          "type": "topic"
+        },
+        {
+          "displayName": "Autobiography and memoir",
+          "id": "books/autobiography-and-memoir+biography",
+          "type": "topic"
+        },
+        {
+          "displayName": "Poetry",
+          "id": "books/poetry",
+          "type": "topic"
+        },
+        {
+          "displayName": "History",
+          "id": "books/history",
+          "type": "topic"
+        },
+        {
+          "displayName": "Politics",
+          "id": "books/politics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Biography",
+          "id": "books/biography",
+          "type": "topic"
+        },
+        {
+          "displayName": "Publishing",
+          "id": "books/publishing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Australian Books",
+          "id": "books/australian-books",
+          "type": "topic"
+        },
+        {
+          "displayName": "Science and nature",
+          "id": "books/scienceandnature",
+          "type": "topic"
+        },
+        {
+          "displayName": "Society",
+          "id": "books/society",
+          "type": "topic"
+        },
+        {
+          "displayName": "Books for children and teenagers",
+          "id": "books/booksforchildrenandteenagers",
+          "type": "topic"
+        },
+        {
+          "displayName": "Comics",
+          "id": "books/comics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Art",
+          "id": "books/art",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fiction in translation",
+          "id": "books/fiction-in-translation",
+          "type": "topic"
+        },
+        {
+          "displayName": "Short stories",
+          "id": "books/short-stories",
+          "type": "topic"
+        },
+        {
+          "displayName": "Crime",
+          "id": "books/crime",
+          "type": "topic"
+        },
+        {
+          "displayName": "Libraries",
+          "id": "books/libraries",
+          "type": "topic"
+        },
+        {
+          "displayName": "Essays",
+          "id": "books/essays",
+          "type": "topic"
+        },
+        {
+          "displayName": "Thrillers",
+          "id": "books/thrillers",
+          "type": "topic"
+        },
+        {
+          "displayName": "Music",
+          "id": "books/music",
+          "type": "topic"
+        },
+        {
+          "displayName": "Health mind and body",
+          "id": "books/healthmindandbody",
+          "type": "topic"
+        },
+        {
+          "displayName": "Science fiction",
+          "id": "books/science-fiction",
+          "type": "topic"
+        },
+        {
+          "displayName": "Philosophy",
+          "id": "books/philosophy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Journalism",
+          "id": "books/journalism",
+          "type": "topic"
+        },
+        {
+          "displayName": "Charles Dickens",
+          "id": "books/charlesdickens",
+          "type": "topic"
+        },
+        {
+          "displayName": "Audiobooks",
+          "id": "books/audiobooks",
+          "type": "topic"
+        },
+        {
+          "displayName": "Roald Dahl",
+          "id": "books/roalddahl",
+          "type": "topic"
+        },
+        {
+          "displayName": "Food",
+          "id": "books/food",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fantasy",
+          "id": "books/fantasy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Book of the day",
+          "id": "books/series/book-of-the-day",
+          "type": "series"
+        },
+        {
+          "displayName": "The books of my life",
+          "id": "books/series/the-books-of-my-life",
+          "type": "series"
+        },
+        {
+          "displayName": "The Big idea",
+          "id": "books/series/big-idea",
+          "type": "series"
+        },
+        {
+          "displayName": "Audiobook of the week",
+          "id": "books/series/audiobook-of-the-week",
+          "type": "series"
+        },
+        {
+          "displayName": "Poem of the week",
+          "id": "books/series/poemoftheweek",
+          "type": "series"
+        }
+      ]
+    },
+    {
+      "displayTitle": "TV & Radio",
+      "tags": [
+        {
+          "displayName": "TV and Radio",
+          "id": "tv-and-radio/tv-and-radio",
+          "type": "topic"
+        },
+        {
+          "displayName": "Comedy",
+          "id": "tv-and-radio/documentary",
+          "type": "topic"
+        },
+        {
+          "displayName": "TV Review",
+          "id": "tv-and-radio/series/tv-review",
+          "type": "series"
+        },
+        {
+          "displayName": "Watch This",
+          "id": "culture/series/watchthis",
+          "type": "series"
+        },
+        {
+          "displayName": "Drama",
+          "id": "tv-and-radio/drama",
+          "type": "topic"
+        },
+        {
+          "displayName": "US television",
+          "id": "tv-and-radio/us-television",
+          "type": "topic"
+        },
+        {
+          "displayName": "Documentary",
+          "id": "tv-and-radio/documentary",
+          "type": "topic"
+        },
+        {
+          "displayName": "Podcasts",
+          "id": "tv-and-radio/podcasts",
+          "type": "topic"
+        },
+        {
+          "displayName": "Reality TV",
+          "id": "tv-and-radio/reality-tv",
+          "type": "topic"
+        },
+        {
+          "displayName": "Factual TV",
+          "id": "tv-and-radio/factual-tv",
+          "type": "topic"
+        },
+        {
+          "displayName": "Entertainment",
+          "id": "tv-and-radio/entertainment",
+          "type": "topic"
+        },
+        {
+          "displayName": "TV Crime drama",
+          "id": "tv-and-radio/crime-drama",
+          "type": "topic"
+        },
+        {
+          "displayName": "Strictly Come Dancing",
+          "id": "tv-and-radio/strictly-come-dancing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Eurovision",
+          "id": "tv-and-radio/eurovision",
+          "type": "topic"
+        },
+        {
+          "displayName": "Food TV",
+          "id": "tv-and-radio/food-tv",
+          "type": "topic"
+        },
+        {
+          "displayName": "Soap opera",
+          "id": "tv-and-radio/soap-opera",
+          "type": "topic"
+        },
+        {
+          "displayName": "Doctor Who",
+          "id": "tv-and-radio/doctor-who",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fantasy TV",
+          "id": "tv-and-radio/fantasy-tv",
+          "type": "topic"
+        },
+        {
+          "displayName": "I'm A Celebrity",
+          "id": "tv-and-radio/i-m-a-celebrity",
+          "type": "topic"
+        },
+        {
+          "displayName": "TV News",
+          "id": "tv-and-radio/tv-news",
+          "type": "topic"
+        },
+        {
+          "displayName": "The Great British Bake Off",
+          "id": "tv-and-radio/the-great-british-bake-off",
+          "type": "topic"
+        },
+        {
+          "displayName": "Love Island",
+          "id": "tv-and-radio/love-island",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sport TV",
+          "id": "tv-and-radio/sport-tv",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Art & Design",
+      "tags": [
+        {
+          "displayName": "Art & Design",
+          "id": "artanddesign",
+          "type": "section"
+        },
+        {
+          "displayName": "Photography",
+          "id": "artanddesign/photography",
+          "type": "topic"
+        },
+        {
+          "displayName": "Art",
+          "id": "artanddesign/art",
+          "type": "topic"
+        },
+        {
+          "displayName": "Architecture",
+          "id": "artanddesign/architecture",
+          "type": "topic"
+        },
+        {
+          "displayName": "Painting",
+          "id": "artanddesign/painting",
+          "type": "topic"
+        },
+        {
+          "displayName": "Design",
+          "id": "artanddesign/design",
+          "type": "topic"
+        },
+        {
+          "displayName": "Sculpture",
+          "id": "artanddesign/sculpture",
+          "type": "topic"
+        },
+        {
+          "displayName": "Illustration",
+          "id": "artanddesign/illustration",
+          "type": "topic"
+        },
+        {
+          "displayName": "Installation",
+          "id": "artanddesign/installation",
+          "type": "topic"
+        },
+        {
+          "displayName": "Ceramics",
+          "id": "artanddesign/ceramics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Street art",
+          "id": "artanddesign/streetart",
+          "type": "topic"
+        },
+        {
+          "displayName": "Graphic design",
+          "id": "artanddesign/graphic-design",
+          "type": "topic"
+        },
+        {
+          "displayName": "Exhibition",
+          "id": "artanddesign/exhibition",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Technology",
+      "tags": [
+        {
+          "displayName": "Technology",
+          "id": "technology",
+          "type": "section"
+        },
+        {
+          "displayName": "Internet",
+          "id": "technology/internet",
+          "type": "topic"
+        },
+        {
+          "displayName": "Twitter",
+          "id": "technology/twitter",
+          "type": "topic"
+        },
+        {
+          "displayName": "Techscape",
+          "id": "technology/series/techscape",
+          "type": "series"
+        },
+        {
+          "displayName": "Elon Musk",
+          "id": "technology/elon-musk",
+          "type": "topic"
+        },
+        {
+          "displayName": "Artificial intelligence (AI)",
+          "id": "technology/artificialintelligenceai",
+          "type": "topic"
+        },
+        {
+          "displayName": "Facebook",
+          "id": "technology/facebook",
+          "type": "topic"
+        },
+        {
+          "displayName": "Computing",
+          "id": "technology/computing",
+          "type": "topic"
+        },
+        {
+          "displayName": "TikTok",
+          "id": "technology/tiktok",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cryptocurrencies",
+          "id": "technology/cryptocurrencies",
+          "type": "topic"
+        },
+        {
+          "displayName": "E-commerce",
+          "id": "technology/efinance",
+          "type": "topic"
+        },
+        {
+          "displayName": "Meta",
+          "id": "technology/meta",
+          "type": "topic"
+        },
+        {
+          "displayName": "Amazon",
+          "id": "technology/amazon",
+          "type": "topic"
+        },
+        {
+          "displayName": "Google",
+          "id": "technology/google",
+          "type": "topic"
+        },
+        {
+          "displayName": "Instagram",
+          "id": "technology/instagram",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mobile phones",
+          "id": "technology/mobilephones",
+          "type": "topic"
+        },
+        {
+          "displayName": "Apple",
+          "id": "technology/apple",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cybercrime",
+          "id": "technology/cybercrime",
+          "type": "topic"
+        },
+        {
+          "displayName": "Motoring",
+          "id": "technology/motoring",
+          "type": "topic"
+        },
+        {
+          "displayName": "Smartphones",
+          "id": "technology/smartphones",
+          "type": "topic"
+        },
+        {
+          "displayName": "Tesla",
+          "id": "technology/tesla",
+          "type": "topic"
+        },
+        {
+          "displayName": "Hacking",
+          "id": "technology/hacking",
+          "type": "topic"
+        },
+        {
+          "displayName": "YouTube",
+          "id": "technology/youtube",
+          "type": "topic"
+        },
+        {
+          "displayName": "Apps",
+          "id": "technology/apps",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Money & Finance",
+      "tags": [
+        {
+          "displayName": "Consumer affairs",
+          "id": "money/consumer-affairs",
+          "type": "topic"
+        },
+        {
+          "displayName": "Energy",
+          "id": "money/energy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Household bills",
+          "id": "money/household-bills",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cost of living crisis",
+          "id": "business/cost-of-living-crisis",
+          "type": "topic"
+        },
+        {
+          "displayName": "Property",
+          "id": "money/property",
+          "type": "topic"
+        },
+        {
+          "displayName": "Work and careers",
+          "id": "money/work-and-careers",
+          "type": "topic"
+        },
+        {
+          "displayName": "Consumer rights money",
+          "id": "money/consumer-rights-money",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mortgages",
+          "id": "money/mortgages",
+          "type": "topic"
+        },
+        {
+          "displayName": "Tax",
+          "id": "money/tax",
+          "type": "topic"
+        },
+        {
+          "displayName": "Your problems",
+          "id": "money/series/yourproblems",
+          "type": "series"
+        },
+        {
+          "displayName": "Consumer champions",
+          "id": "money/series/bachelor-and-brignall-consumer-champions",
+          "type": "series"
+        },
+        {
+          "displayName": "Money hacks",
+          "id": "money/series/money-hacks",
+          "type": "series"
+        },
+        {
+          "displayName": "Banks",
+          "id": "money/banks",
+          "type": "topic"
+        },
+        {
+          "displayName": "Motoring",
+          "id": "money/motoring",
+          "type": "topic"
+        },
+        {
+          "displayName": "Renting",
+          "id": "money/renting",
+          "type": "topic"
+        },
+        {
+          "displayName": "Family finances",
+          "id": "money/family-finances",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pay",
+          "id": "money/pay",
+          "type": "topic"
+        },
+        {
+          "displayName": "House prices",
+          "id": "money/houseprices",
+          "type": "topic"
+        },
+        {
+          "displayName": "Petrol prices",
+          "id": "money/petrol-prices",
+          "type": "topic"
+        },
+        {
+          "displayName": "Pensions",
+          "id": "money/pensions",
+          "type": "topic"
+        },
+        {
+          "displayName": "Childcare",
+          "id": "money/childcare",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mortgage rates",
+          "id": "money/mortgage-rates",
+          "type": "topic"
+        },
+        {
+          "displayName": "Debt",
+          "id": "money/debt",
+          "type": "topic"
+        },
+        {
+          "displayName": "Scams and fraud",
+          "id": "money/scamsandfraud",
+          "type": "topic"
+        },
+        {
+          "displayName": "Work life balance",
+          "id": "money/work-life-balance",
+          "type": "topic"
+        },
+        {
+          "displayName": "Online shopping",
+          "id": "money/online-shopping",
+          "type": "topic"
+        },
+        {
+          "displayName": "Insurance",
+          "id": "money/insurance",
+          "type": "topic"
+        },
+        {
+          "displayName": "National insurance",
+          "id": "money/national-insurance",
+          "type": "topic"
+        },
+        {
+          "displayName": "Savings",
+          "id": "money/savings",
+          "type": "topic"
+        },
+        {
+          "displayName": "Discrimination at work",
+          "id": "money/discrimination-at-work",
+          "type": "topic"
+        },
+        {
+          "displayName": "Work & careers",
+          "id": "money/work-careers-us",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mobile phones",
+          "id": "money/mobile-phones",
+          "type": "topic"
+        },
+        {
+          "displayName": "Student Finance",
+          "id": "money/student-finance",
+          "type": "topic"
+        },
+        {
+          "displayName": "Shopping",
+          "id": "money/shopping",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Science",
+      "tags": [
+        {
+          "displayName": "Science",
+          "id": "science",
+          "type": "section"
+        },
+        {
+          "displayName": "Infectious diseases",
+          "id": "science/infectiousdiseases",
+          "type": "topic"
+        },
+        {
+          "displayName": "Medical research",
+          "id": "science/medical-research",
+          "type": "topic"
+        },
+        {
+          "displayName": "Space",
+          "id": "science/space",
+          "type": "topic"
+        },
+        {
+          "displayName": "Psychology",
+          "id": "science/psychology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Biology",
+          "id": "science/biology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Science",
+          "id": "science/series/science",
+          "type": "series"
+        },
+        {
+          "displayName": "Alex Bello's Monday puzzle",
+          "id": "science/series/alex-bellos-monday-puzzle",
+          "type": "series"
+        },
+        {
+          "displayName": "Star watch",
+          "id": "science/series/starwatch",
+          "type": "series"
+        },
+        {
+          "displayName": "Science of climate change",
+          "id": "science/scienceofclimatechange",
+          "type": "topic"
+        },
+        {
+          "displayName": "Archaeology",
+          "id": "science/archaeology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Agriculture",
+          "id": "science/argriculture",
+          "type": "topic"
+        },
+        {
+          "displayName": "Astronomy",
+          "id": "science/astronomy",
+          "type": "topic"
+        },
+        {
+          "displayName": "Ageing",
+          "id": "science/ageing",
+          "type": "topic"
+        },
+        {
+          "displayName": "Microbiology",
+          "id": "science/microbiology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Nasa",
+          "id": "science/nasa",
+          "type": "topic"
+        },
+        {
+          "displayName": "Drugs",
+          "id": "science/drugs",
+          "type": "topic"
+        },
+        {
+          "displayName": "Language",
+          "id": "science/language",
+          "type": "topic"
+        },
+        {
+          "displayName": "Neuroscience",
+          "id": "science/neuroscience",
+          "type": "topic"
+        },
+        {
+          "displayName": "Genetics",
+          "id": "science/genetics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Mathematics",
+          "id": "science/mathematics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Zoology",
+          "id": "science/zoology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Evolution",
+          "id": "science/evolution",
+          "type": "topic"
+        },
+        {
+          "displayName": "Moon",
+          "id": "science/moon",
+          "type": "topic"
+        },
+        {
+          "displayName": "Consciousness",
+          "id": "science/consciousness",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fossils",
+          "id": "science/fossils",
+          "type": "topic"
+        },
+        {
+          "displayName": "Cancer",
+          "id": "science/cancer",
+          "type": "topic"
+        },
+        {
+          "displayName": "Physics",
+          "id": "science/physics",
+          "type": "topic"
+        },
+        {
+          "displayName": "Weapons technology",
+          "id": "science/weaponstechnology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Animal behaviour",
+          "id": "science/animalbehaviour",
+          "type": "topic"
+        },
+        {
+          "displayName": "Dinosaurs",
+          "id": "science/dinosaurs",
+          "type": "topic"
+        },
+        {
+          "displayName": "Fungi",
+          "id": "science/fungi",
+          "type": "topic"
+        },
+        {
+          "displayName": "Anthropology",
+          "id": "science/anthropology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Palaeontology",
+          "id": "science/palaeontology",
+          "type": "topic"
+        },
+        {
+          "displayName": "International Space Station",
+          "id": "science/international-space-station",
+          "type": "topic"
+        },
+        {
+          "displayName": "Human biology",
+          "id": "science/human-biology",
+          "type": "topic"
+        },
+        {
+          "displayName": "Geology",
+          "id": "science/geology",
+          "type": "topic"
+        },
+        {
+          "displayName": "European Space Agency",
+          "id": "science/european-space-agency",
+          "type": "topic"
+        },
+        {
+          "displayName": "Meteors",
+          "id": "science/meteors",
+          "type": "topic"
+        }
+      ]
+    }
+  ]
+  
+  
+  
+  

@@ -4,7 +4,7 @@ name: JSON Validation
 on:
   push:
     paths:
-      - 'tags/*.json'  # Trigger only when JSON files are added/modified in the "tags" directory
+      - 'tags/*.json'  
   workflow_dispatch:  
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       
     - name: Validate JSON files
       run: |
@@ -24,3 +24,41 @@ jobs:
           echo "Validating $file"
           jq . "$file"
         done
+
+  CI:
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.4.0
+          cache: 'npm'
+
+      - name: cdk synth
+        working-directory: ./cdk
+        run: |
+          npm ci
+          npm run lint
+          npm test
+          npm run synth
+
+      - uses: guardian/actions-riff-raff@v4
+        with:
+          app: my-guardian-suggested-tags
+          roleArn: ${{ secrets.GU_RIFF_RAFF_ROLE_ARN }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          configPath: riff-raff.yaml
+          contentDirectories: |
+            my-guardian-suggested-tags-cfn: 
+              - cdk/cdk.out/MyGuardianSuggestedTags-CODE.template.json
+              - cdk/cdk.out/MyGuardianSuggestedTags-PROD.template.json
+            my-guardian-suggested-tags-static: 
+              - tags/dist

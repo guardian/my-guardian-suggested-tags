@@ -1,0 +1,25 @@
+stacks: [mobile]
+regions: [eu-west-1]
+
+allowedStages:
+  - CODE
+  - PROD
+
+deployments:
+  my-guardian-suggested-tags-cfn:
+    type: cloud-formation
+    app: my-guardian-suggested-tags
+    parameters:
+      templateStagePaths:
+        CODE: MyGuardianSuggestedTags-CODE.template.json
+        PROD: MyGuardianSuggestedTags-PROD.template.json
+  my-guardian-suggested-tags-static: 
+    type: aws-s3
+    parameters:
+      bucketSsmKeyStageParam: 
+        CODE: /CODE/mobile/my-guardian-suggested-tags-static/bucket-name
+        PROD: /PROD/mobile/my-guardian-suggested-tags-static/bucket-name
+      cacheControl: private
+      publicReadAcl: false
+    dependencies:
+      - my-guardian-suggested-tags-cfn
