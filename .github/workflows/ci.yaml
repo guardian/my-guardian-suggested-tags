@@ -20,7 +20,7 @@ jobs:
       
     - name: Validate JSON files
       run: |
-        cd tags
+        cd tags/dist
         json_files=$(ls *.json)
         for file in $json_files; do
           echo "Validating $file"
@@ -58,6 +58,7 @@ jobs:
           app: my-guardian-suggested-tags
           roleArn: ${{ secrets.GU_RIFF_RAFF_ROLE_ARN }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          buildNumberOffset: 10
           configPath: riff-raff.yaml
           contentDirectories: |
             my-guardian-suggested-tags-cfn: 
