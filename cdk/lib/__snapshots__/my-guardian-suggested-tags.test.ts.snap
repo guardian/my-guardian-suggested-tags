@@ -17,7 +17,7 @@ exports[`The MyGuardianSuggestedTags stack matches the snapshot 1`] = `
           "Stack": "mobile",
           "Stage": "TEST",
           "gu:cdk:version": "TEST",
-          "gu:repo": "tkgnm/stags",
+          "gu:repo": "guardian/my-guardian-suggested-tags",
         },
         "Type": "String",
         "Value": {
@@ -46,7 +46,7 @@ exports[`The MyGuardianSuggestedTags stack matches the snapshot 1`] = `
           },
           {
             "Key": "gu:repo",
-            "Value": "tkgnm/stags",
+            "Value": "guardian/my-guardian-suggested-tags",
           },
           {
             "Key": "Stack",
