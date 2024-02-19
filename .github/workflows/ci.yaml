@@ -1,10 +1,12 @@
 
-name: JSON Validation
+name: Upload to riff raff
 
 on:
   push:
     paths:
       - 'tags/*.json'  
+    branches:
+      - main 
   workflow_dispatch:  
 
 jobs:

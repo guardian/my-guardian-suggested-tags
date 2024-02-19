@@ -7,6 +7,7 @@ import { StringParameter } from "aws-cdk-lib/aws-ssm";
 export class MyGuardianSuggestedTags extends GuStack {
   constructor(scope: App, id: string, props: GuStackProps) {
     super(scope, id, props);
+    
     const bucket = new GuS3Bucket(this, `${props.app}`, {
       app: props.app as string,
     });
