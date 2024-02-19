@@ -1,6 +1,6 @@
 import "source-map-support/register";
-import { MyGuardianSuggestedTags } from "../lib/my-guardian-suggested-tags";
 import { App } from "aws-cdk-lib";
+import { MyGuardianSuggestedTags } from "../lib/my-guardian-suggested-tags";
 
 const app = new App();
 
