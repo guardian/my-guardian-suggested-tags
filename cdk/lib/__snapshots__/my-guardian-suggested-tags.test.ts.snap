@@ -3,8 +3,64 @@
 exports[`The MyGuardianSuggestedTags stack matches the snapshot 1`] = `
 {
   "Metadata": {
-    "gu:cdk:constructs": [],
+    "gu:cdk:constructs": [
+      "GuS3Bucket",
+    ],
     "gu:cdk:version": "TEST",
+  },
+  "Resources": {
+    "MyGuardianSuggestedTagsBucketName3C78EE6D": {
+      "Properties": {
+        "Description": "The name of the bucket where the site is hosted",
+        "Name": "/TEST/mobile/my-guardian-suggested-tags-static/bucket-name",
+        "Tags": {
+          "Stack": "mobile",
+          "Stage": "TEST",
+          "gu:cdk:version": "TEST",
+          "gu:repo": "tkgnm/stags",
+        },
+        "Type": "String",
+        "Value": {
+          "Ref": "myguardiansuggestedtagsstaticMyguardiansuggestedtagsstaticCD5B7124",
+        },
+      },
+      "Type": "AWS::SSM::Parameter",
+    },
+    "myguardiansuggestedtagsstaticMyguardiansuggestedtagsstaticCD5B7124": {
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true,
+        },
+        "Tags": [
+          {
+            "Key": "App",
+            "Value": "my-guardian-suggested-tags-static",
+          },
+          {
+            "Key": "gu:cdk:version",
+            "Value": "TEST",
+          },
+          {
+            "Key": "gu:repo",
+            "Value": "tkgnm/stags",
+          },
+          {
+            "Key": "Stack",
+            "Value": "mobile",
+          },
+          {
+            "Key": "Stage",
+            "Value": "TEST",
+          },
+        ],
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Retain",
+    },
   },
 }
 `;

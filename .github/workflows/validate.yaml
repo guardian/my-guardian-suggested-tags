@@ -41,6 +41,7 @@ jobs:
         with:
           node-version: 20.4.0
           cache: 'npm'
+          cache-dependency-path: 'cdk/package-lock.json'
 
       - name: cdk synth
         working-directory: ./cdk
