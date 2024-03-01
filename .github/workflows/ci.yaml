@@ -1,5 +1,4 @@
-
-name: Upload to riff raff
+name: Validate tags/sections and upload to riff-raff
 
 on:
   push:
@@ -10,14 +9,14 @@ on:
   workflow_dispatch:  
 
 jobs:
-  tag-section-validator:
-    name: Check tags and sections are valid via CAPI client
+  upload-to-riff-raff:
+    name: Validate tags/sections and upload to riff-raff
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        
+
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
@@ -27,38 +26,20 @@ jobs:
 
       - name: Run SBT project
         run: |
+          cd tag-section-validator
           export API_KEY=$API_KEY
           sbt run
         env: 
           API_KEY: ${{ secrets.CAPI_KEY }}
 
-  validate_json:
-    name: Validate JSON files in tags directory
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      
-    - name: Validate JSON files
-      run: |
-        cd tag-section-validator/dist
-        json_files=$(ls *.json)
-        for file in $json_files; do
-          echo "Validating $file"
-          jq . "$file"
-        done
-
-  CI:
-    runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write
-      contents: read
-      pull-requests: write
-
-    steps:
-      - uses: actions/checkout@v3
+      - name: Validate JSON files
+        run: |
+          cd tag-section-validator/dist
+          json_files=$(ls *.json)
+          for file in $json_files; do
+            echo "Validating $file"
+            jq . "$file"
+          done
 
       - name: Setup Node
         uses: actions/setup-node@v4
