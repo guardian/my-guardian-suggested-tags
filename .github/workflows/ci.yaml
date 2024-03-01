@@ -3,7 +3,7 @@ name: Validate tags/sections and upload to riff-raff
 on:
   push:
     paths:
-      - 'tags/*.json'  
+      - '*'  
     branches:
       - main 
   workflow_dispatch:  
@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up JDK
         uses: actions/setup-java@v3
