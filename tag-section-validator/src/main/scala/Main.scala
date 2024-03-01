@@ -33,7 +33,7 @@ object Main {
       val tagErrors = Await
         .result(
           Future.sequence(tagResults),
-          Duration(10, TimeUnit.SECONDS)
+          Duration(30, TimeUnit.SECONDS)
         )
         .collect { case Left(error) => error }
 
