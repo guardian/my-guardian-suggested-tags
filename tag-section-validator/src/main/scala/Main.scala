@@ -31,17 +31,11 @@ object Main {
       val sectionResults = tagSectionChecker.checkSections(allSectionIds)
 
       val tagErrors = Await
-        .result(
-          Future.sequence(tagResults),
-          Duration(30, TimeUnit.SECONDS)
-        )
+        .result(Future.sequence(tagResults), Duration.Inf)
         .collect { case Left(error) => error }
 
       val sectionErrors = Await
-        .result(
-          Future.sequence(sectionResults),
-          Duration(30, TimeUnit.SECONDS)
-        )
+        .result(Future.sequence(sectionResults), Duration.Inf)
         .collect { case Left(error) => error }
 
       tagErrors ++ sectionErrors

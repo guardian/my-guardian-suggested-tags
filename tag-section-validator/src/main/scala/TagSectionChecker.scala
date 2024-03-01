@@ -21,6 +21,7 @@ class TagSectionChecker(client: GuardianContentClient) {
   ).mkString(",")
 
   def checkSection(id: String): Future[Either[ApiError, String]] = {
+    println(s"Checking section $id")
     val capiResponse = client.getResponse(ItemQuery(id))
     capiResponse
       .map(response => Right(response.section.mkString(",")))
@@ -40,6 +41,7 @@ class TagSectionChecker(client: GuardianContentClient) {
   }
 
   def checkTag(id: String): Future[Either[ApiError, String]] = {
+    println(s"Checking tag $id")
     val capiResponse = client.getResponse(ItemQuery(id).showTags(supportedTags))
     capiResponse.map(response => Right(response.tag.mkString(","))).recover {
       case e =>
