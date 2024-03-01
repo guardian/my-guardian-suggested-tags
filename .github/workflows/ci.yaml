@@ -20,7 +20,7 @@ jobs:
       
     - name: Validate JSON files
       run: |
-        cd tags/dist
+        cd tag-section-validator/dist
         json_files=$(ls *.json)
         for file in $json_files; do
           echo "Validating $file"
@@ -65,4 +65,4 @@ jobs:
               - cdk/cdk.out/MyGuardianSuggestedTags-CODE.template.json
               - cdk/cdk.out/MyGuardianSuggestedTags-PROD.template.json
             my-guardian-suggested-tags-static: 
-              - tags/dist
+              - tag-section-validator/dist
