@@ -10,6 +10,28 @@ on:
   workflow_dispatch:  
 
 jobs:
+  tag-section-validator:
+    name: Check tags and sections are valid via CAPI client
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'corretto'
+          java-version: '11'
+          cache: 'sbt'
+
+      - name: Run SBT project
+        run: |
+          export API_KEY=$API_KEY
+          sbt run
+        env: 
+          API_KEY: ${{ secrets.CAPI_KEY }}
+
   validate_json:
     name: Validate JSON files in tags directory
     runs-on: ubuntu-latest
