@@ -10,6 +10,10 @@ object Main {
   def main(args: Array[String]): Unit = {
 
     val apiKey = System.getenv("API_KEY")
+    if (apiKey.isEmpty)
+      throw new RuntimeException(
+        "No API key for the CAPI client found. Check your environment variables."
+      )
 
     val client = new GuardianContentClient(apiKey)
     val tagSectionChecker = new TagSectionChecker(client)
@@ -36,7 +40,7 @@ object Main {
       val sectionErrors = Await
         .result(
           Future.sequence(sectionResults),
-          Duration(10, TimeUnit.SECONDS)
+          Duration(30, TimeUnit.SECONDS)
         )
         .collect { case Left(error) => error }
 
