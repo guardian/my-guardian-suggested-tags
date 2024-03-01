@@ -15,6 +15,8 @@ object Main {
         "No API key for the CAPI client found. Check your environment variables."
       )
 
+    val TIMEOUT_DURATION = Duration(60, TimeUnit.SECONDS)
+
     val client = new GuardianContentClient(apiKey)
     val tagSectionChecker = new TagSectionChecker(client)
 
@@ -31,11 +33,11 @@ object Main {
       val sectionResults = tagSectionChecker.checkSections(allSectionIds)
 
       val tagErrors = Await
-        .result(Future.sequence(tagResults), Duration.Inf)
+        .result(Future.sequence(tagResults), TIMEOUT_DURATION)
         .collect { case Left(error) => error }
 
       val sectionErrors = Await
-        .result(Future.sequence(sectionResults), Duration.Inf)
+        .result(Future.sequence(sectionResults), TIMEOUT_DURATION)
         .collect { case Left(error) => error }
 
       tagErrors ++ sectionErrors
