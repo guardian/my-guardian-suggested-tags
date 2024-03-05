@@ -5,7 +5,6 @@ import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 
-// works, make it more helpful by telling you what the error is. i.e is it an invalid API key? Cos that's whst was happening before!
 object Main {
   def main(args: Array[String]): Unit = {
 
