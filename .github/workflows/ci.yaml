@@ -78,5 +78,5 @@ jobs:
             my-guardian-suggested-tags-cfn: 
               - cdk/cdk.out/MyGuardianSuggestedTags-CODE.template.json
               - cdk/cdk.out/MyGuardianSuggestedTags-PROD.template.json
-            my-guardian-suggested-tags-static: 
+            suggested-tags: 
               - tag-section-validator/dist
