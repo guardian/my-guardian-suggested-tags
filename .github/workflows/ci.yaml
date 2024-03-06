@@ -45,7 +45,7 @@ jobs:
 
       - name: Validate JSON files
         run: |
-          cd tag-section-validator/dist
+          cd tag-section-validator/dist/suggested-tags
           json_files=$(ls *.json)
           for file in $json_files; do
             echo "Validating $file"
