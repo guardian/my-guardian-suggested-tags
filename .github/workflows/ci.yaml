@@ -6,6 +6,12 @@ on:
       - '*'  
     branches:
       - main 
+  pull_request:
+    paths:
+      - 'cdk/**'
+      - 'tag-section-validator/**'
+    branches:
+      - main
   workflow_dispatch:  
 
 jobs:

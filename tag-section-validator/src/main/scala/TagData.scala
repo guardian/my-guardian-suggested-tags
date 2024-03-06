@@ -291,6 +291,7 @@ object LifestyleCollection extends TagData {
 object FoodCollection extends TagData {
 
   val foodTags: Seq[SuggestedTag] = Seq(
+    SuggestedTag("Food", "food", Section),
     SuggestedTag("Recipes", "tone/recipes", Topic),
     SuggestedTag("Felicity Cloake", "profile/felicity-cloake", Contributor),
     SuggestedTag("Jay Rayner", "profile/jayrayner", Contributor),
