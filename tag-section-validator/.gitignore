@@ -18,6 +18,9 @@
 # Ignore logs
 *.log
 
+# Ignore bsp directory
+.bsp/
+
 # Ignore sbt build directories
 /project/target/
 /build/
