@@ -19,6 +19,9 @@ deployments:
       bucketSsmKeyStageParam: 
         CODE: /CODE/mobile/my-guardian-suggested-tags-static/bucket-name
         PROD: /PROD/mobile/my-guardian-suggested-tags-static/bucket-name
+      cacheControl:
+        - pattern: '*'
+          value: max-age=300
       publicReadAcl: false
       prefixStack: false
       prefixStage: false
