@@ -68,10 +68,10 @@ object SuggestedTag {
 
 object SuggestedTags {
 
-  lazy val allTags: Seq[SuggestedTagCollection] = Seq(uk)
+  lazy val allTags: Seq[SuggestedTagCollection] = Seq(tags)
 
   // we could add more, such as "us" and append to the allTags Seq
-  val uk: SuggestedTagCollection = SuggestedTagCollection(
+  val tags: SuggestedTagCollection = SuggestedTagCollection(
     fileName = "uk",
     tagCollections = Seq(
       newsCollection,
