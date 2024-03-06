@@ -97,7 +97,8 @@ object SuggestedTags {
   def writeTagsToJson(suggestedTagCollection: SuggestedTagCollection): Unit = {
     val json = suggestedTagCollection.tagCollections.asJson
     val outputDir = "dist"
-    val filePath = s"$outputDir/${suggestedTagCollection.fileName}.json"
+    val filePath =
+      s"$outputDir/suggested-tags/${suggestedTagCollection.fileName}.json"
 
     // Create the output directory if it doesn't exist
     val outputDirPath = Paths.get(outputDir)
